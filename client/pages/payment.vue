@@ -100,7 +100,7 @@ export default {
   },
   mounted() {
     this.stripe = Stripe(
-      "pk_test_51H1LrOLhUZRXqqvalHPaQBLUhKbjwszMbuKfGfUkUWJObYbTfhduQlVj401yA4jEjFsmbY4fnhpGXCfiGKtL4Qsy00iGX05tYC"
+      //Stripe test
     );
     let elements = this.stripe.elements();
     this.card = elements.create("card");
